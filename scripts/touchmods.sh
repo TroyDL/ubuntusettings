@@ -7,5 +7,8 @@ synclient VertScrollDelta=-79
 #synclient VertHysteresis=10
 synclient CoastingSpeed=10 #allows momentum scrolling
 synclient CoastingFriction=25 #how fast the momentum fades
-synclient PalmDetect=1
+#synclient PalmDetect=1
 #synclient MaxTapTime=250
+#synclient HorizTwoFingerScroll=0
+
+setsid touchegg
