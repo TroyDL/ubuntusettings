@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/tdl/ubuntusettings/scripts/touchmods.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Touchmods Script
+Name=Touchmods Script
+Comment[en_US]=Modifies synclient, starts touchegg
+Comment=Modifies synclient, starts touchegg
