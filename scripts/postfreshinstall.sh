@@ -6,6 +6,7 @@ sudo apt-get install -y cinnamon
 sudo apt-get install -y synapse
 sudo apt-get install -y konsole
 sudo apt-get install -y build-dep touchegg
+sudo apt-get install -y libgconf2-4
 
 cd ~/
 git clone https://github.com/TroyDL/termprefs.git
@@ -22,4 +23,7 @@ cd ~
 cp ~/ubuntusettings/autostart/* ~/.config/autostart/
 git config --global user.name "Troy Lonie"
 git config --global user.email troydl@mail.fresnostate.edu
+
+#this attempts to fix the blank screen upon boot issue
+sudo cp ~/ubuntusettings/blackscreenfix/lightdm.conf /etc/init/
 

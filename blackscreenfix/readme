@@ -1,0 +1,3 @@
+The purpose of this is to prevent ubuntu from booting only to a black/blank screen.
+The postinstall script will copy the lightdm.conf file from this folder into the /etc/init/lightdm/ folder.
+The only change between these two .conf files is a line inserted directly above "exec lightdm" that says "sleep 2".  This is needed because apparently there is occasionally a problem where if ubuntu is loaded on an SSD it needs a few extra seconds to finish loading stuff right before it executes the lightdm manager.  If 2 doesn't work try 4 or 6.
