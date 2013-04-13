@@ -1,0 +1,3 @@
+When creating a new script make sure it is executable or else it won't be usable.
+
+chmod u+x <filename>
