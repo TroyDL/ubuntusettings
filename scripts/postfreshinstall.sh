@@ -20,5 +20,6 @@ cd ~/ubuntusettings/scripts/
 ./touchmods.sh
 cd ~
 cp ~/ubuntusettings/autostart/* ~/.config/autostart/
-
+git config --global user.name "Troy Lonie"
+git config --global user.email troydl@mail.fresnostate.edu
 
