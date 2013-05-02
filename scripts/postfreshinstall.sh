@@ -6,10 +6,10 @@ sudo apt-get install -y cinnamon
 sudo apt-get install -y synapse
 sudo apt-get install -y konsole
 sudo apt-get install -y g++
+sudo apt-get install -y subversion
 
 #these are needed for touchegg
 sudo apt-get build-dep touchegg
-sudo apt-get install -y subversion
 sudo apt-get install -y qt4-qmake
 
 #clone touchegg and install it
@@ -45,8 +45,8 @@ cd ~
 #import autostart settings
 cp ~/ubuntusettings/autostart/* ~/.config/autostart/
 
-#this attempts to fix the blank screen upon boot issue
-sudo cp ~/ubuntusettings/blackscreenfix/lightdm.conf /etc/init/
+##this attempts to fix the blank screen upon boot issue *** may not be neccessary
+#sudo cp ~/ubuntusettings/blackscreenfix/lightdm.conf /etc/init/
 
 #this attempts to fix the kworker using up 70%+ cpu issue
 sudo cp ~/ubuntusettings/kworkerfix/30_disable_gpe13 /etc/pm/sleep.d/30_disable_gpe13
