@@ -1,0 +1,18 @@
+Installing nvidia-current through apt.
+  This fixed the failure to suspend problem.
+Installed dropbox via website download and then python-gpgme via apt.
+
+--Overtone
+  Installing via apt:
+    -Supercollider, jack-tools, ant, fftw3, qjackct1
+      - fftw3 not found, installing cl-fftw3 instead
+
+Added line "set completion-ignore-case on" to /etc/inputrc to disable
+bash completion case sensitivity.
+
+Made a symbolic link in /lib/x86_64-linux-gnu/ from libudev.so.1 to
+libudev.so.0 to get LightTable to start.
+
+Installing lubuntu-restricted-extras through apt.  (mainly for flash).
+
+Installing yakuake drop down terminal.

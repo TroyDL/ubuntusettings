@@ -1,0 +1,40 @@
+[$Version]
+update_info=yakuake.upd:2.9.9-startupnotification
+
+[Appearance]
+Skin=simple_dark_V3inv
+SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
+
+[Behavior]
+OpenAfterStart=true
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 1080=400
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[Shortcuts]
+close-session=Ctrl+Shift+W; Ctrl+X
+new-session=Ctrl+Shift+T; Ctrl+N
+new-session-quad=Ctrl+4
+next-session=Shift+Right; Ctrl+L
+previous-session=Shift+Left; Ctrl+H
+split-left-right=Ctrl+(; Ctrl+S
+split-top-bottom=Ctrl+); Ctrl+V
+view-full-screen=Ctrl+Shift+F11; F11
+
+[Window]
+Height=90
+KeepAbove=false
+KeepOpen=false
+ToggleToFocus=true
+Width=100
