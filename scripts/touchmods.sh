@@ -10,6 +10,6 @@ synclient CoastingFriction=25 #how fast the momentum fades
 synclient PalmDetect=0
 #synclient MaxTapTime=250
 synclient HorizTwoFingerScroll=1
-synclient AreaLeftEdge=150
+synclient AreaLeftEdge=200
 
 setsid touchegg

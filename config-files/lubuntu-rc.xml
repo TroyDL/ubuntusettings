@@ -179,6 +179,17 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
+    <keybind key="A-F10">
+      <action name="If">
+        <undecorated>no</undecorated>
+          <then>
+            <action name="Undecorate"/>
+          </then>
+        <else>
+          <action name="Decorate"/>
+        </else>
+      </action>
+    </keybind>
     <keybind key="A-1">
       <action name="GoToDesktop">
         <to>1</to>
