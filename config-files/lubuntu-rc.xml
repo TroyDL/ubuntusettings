@@ -179,6 +179,7 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
+    <!-- Cound just use <action name="ToggleDecorations"/> -->
     <keybind key="A-F10">
       <action name="If">
         <undecorated>no</undecorated>
@@ -310,74 +311,6 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Left">
-      <action name="GoToDesktop">
-        <to>left</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Right">
-      <action name="GoToDesktop">
-        <to>right</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Up">
-      <action name="GoToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Down">
-      <action name="GoToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Left">
-      <action name="SendToDesktop">
-        <to>left</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Right">
-      <action name="SendToDesktop">
-        <to>right</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Up">
-      <action name="SendToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Down">
-      <action name="SendToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="W-F1">
-      <action name="GoToDesktop">
-        <to>1</to>
-      </action>
-    </keybind>
-    <keybind key="W-F2">
-      <action name="GoToDesktop">
-        <to>2</to>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="GoToDesktop">
-        <to>3</to>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="GoToDesktop">
-        <to>4</to>
-      </action>
-    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -432,8 +365,8 @@
         </finalactions>
       </action>
     </keybind>
-    <!-- Keybindings for window switching with the arrow keys -->
-    <keybind key="W-S-Right">
+    <!-- Keybindings for window switching with the arrow keys
+         <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
         <direction>right</direction>
       </action>
@@ -452,8 +385,15 @@
       <action name="DirectionalCycleWindows">
         <direction>down</direction>
       </action>
-    </keybind>
+    </keybind> -->
+
     <!-- Keybindings for window tiling -->
+    <keybind key="A-Return">
+      <action name="ToggleMaximize"/>
+    </keybind>
+    <keybind key="A-m">
+      <action name="Iconify"/>
+    </keybind>
     <keybind key="W-Left">        # HalfLeftScreen
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo"><x>0</x><y>0</y><height>97%</height><width>50%</width></action>
@@ -595,12 +535,12 @@
         <command>scrot</command>
       </action>
     </keybind>
-    <!-- Launch logout when push on the shutdown button -->
+    <!-- Launch logout when push on the shutdown button
     <keybind key="XF86PowerOff">
       <action name="Execute">
         <command>lubuntu-logout</command>
       </action>
-    </keybind>
+    </keybind> -->
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>

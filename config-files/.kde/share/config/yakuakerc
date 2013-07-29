@@ -7,7 +7,7 @@ SkinInstalledWithKns=true
 TerminalHighlightOnManualActivation=true
 
 [Behavior]
-OpenAfterStart=true
+OpenAfterStart=false
 
 [Desktop Entry]
 DefaultProfile=Shell.profile
@@ -24,16 +24,22 @@ Favorites=
 
 [Shortcuts]
 close-session=Ctrl+Shift+W; Ctrl+X
+decrease-window-height=Ctrl+Alt+K
+increase-window-height=Ctrl+Alt+J; Ctrl+Shift+Down
 new-session=Ctrl+Shift+T; Ctrl+N
 new-session-quad=Ctrl+4
 next-session=Shift+Right; Ctrl+L
+next-terminal=none
+options_configure_keybinding=F3
 previous-session=Shift+Left; Ctrl+H
+previous-terminal=none
 split-left-right=Ctrl+(; Ctrl+S
-split-top-bottom=Ctrl+); Ctrl+V
+split-top-bottom[$d]
+toggle-window-state=Esc
 view-full-screen=Ctrl+Shift+F11; F11
 
 [Window]
-Height=90
+Height=50
 KeepAbove=false
 KeepOpen=false
 ToggleToFocus=true
