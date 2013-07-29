@@ -16,3 +16,6 @@ libudev.so.0 to get LightTable to start.
 Installing lubuntu-restricted-extras through apt.  (mainly for flash).
 
 Installing yakuake drop down terminal.
+
+Installed ppa:bumblebee/stable, bumblebee, virtualgl,
+  linux-headers-generic
