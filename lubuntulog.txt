@@ -28,3 +28,13 @@ to try to get lubuntu to remember brightness settings on reboot.
 
 Installed intel powertop software and everything that was required.
   https://01.org/powertop/
+
+Had to make another symbolic link from
+/lib/x86_64-linux-gnu/libudev.so.1 to /usr/lib64/libudev.so.0 for
+LightTable to work again.
+
+
+
+
+
+
