@@ -35,7 +35,7 @@ previous-session=Shift+Left; Ctrl+H
 previous-terminal=none
 split-left-right=Ctrl+(; Ctrl+S
 split-top-bottom[$d]
-toggle-window-state=Esc
+toggle-window-state[$d]
 view-full-screen=Ctrl+Shift+F11; F11
 
 [Window]
