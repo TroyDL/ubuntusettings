@@ -1,0 +1,36 @@
+OpenBox:
+
+  Window Manipulating Bindings: (A=alt,C=ctrl,S=shift, W=Windows Key)
+    - A-Right: Grow to east edge
+    - A-left: Grow to west edge
+    - A-Up: Grow to north edge
+    - A-Down: Grow to south edge
+    - A-F4: Close window
+    - A-space: Show client menu
+    - A-Tab: Next window
+    - A-S-Tab: Previous Window
+    - A-Return: Toggle Maximize
+    - F11: Fullscreen mode
+    - A-m: Minimize (iconify)
+    - A-F10: Toggle decorations (toggle borders/titlebar)
+    - W-Right: Snap to right half of screen
+    - W-Left: Snap to left half of screen
+    - W-Up: Snap to upper half of screen
+    - W-Down: Snap to lower half of screen
+
+  Launch/command Bindings
+    - W-r: Open run command box
+    - A-F2: Open run command box
+    - A-F1: Open window manager menu
+    - C-Delete: Open task manager
+    - C-A-Delete: Lock & run screensaver
+
+  Workspaces:
+    - A-[0-9]: Switch to workspace [0-9]
+    - S-A-[0-9]: Move focused window to workspace and follow
+
+Linux Global:
+  - F2: Drop/retract Yakuake KDE Terminal
+  - C-A-F[1-6]: Open background terminal session outside of GUI
+  - C-A-F7: Return from outside terminal session
+
