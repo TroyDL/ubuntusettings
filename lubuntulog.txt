@@ -33,8 +33,12 @@ Had to make another symbolic link from
 /lib/x86_64-linux-gnu/libudev.so.1 to /usr/lib64/libudev.so.0 for
 LightTable to work again.
 
+Installed xbacklight and modified lubunturc.xml to map A-F2 and A-F3
+to decrement and increment the screen brightness respectively at a step
+much smaller than fn-F2/fn-F3.
 
-
-
+Wrote dim and undim scripts that can change brightness independent of
+regular brightness settings.  This allows for an infinite gradient
+between pure black and 100% brightness.
 
 

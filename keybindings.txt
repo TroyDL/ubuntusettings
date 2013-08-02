@@ -33,4 +33,6 @@ Linux Global:
   - F2: Drop/retract Yakuake KDE Terminal
   - C-A-F[1-6]: Open background terminal session outside of GUI
   - C-A-F7: Return from outside terminal session
+  - A-F2: Decrement brightness by 3%
+  - A-F3: Increment brightness by 3%
 
