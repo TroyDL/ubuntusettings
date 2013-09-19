@@ -41,4 +41,9 @@ Wrote dim and undim scripts that can change brightness independent of
 regular brightness settings.  This allows for an infinite gradient
 between pure black and 100% brightness.
 
-
+Using x2x to control raspberry pi (or other x2x enabled device) as
+if it was a second monitor.
+  Download x2x with apt-get.
+  Ensure the host device has 'X11Forwarding yes' uncommented in
+  /etc/ssh/sshd_config
+  Then: ssh -X 192.168.0.80 'x2x -west -to :0'

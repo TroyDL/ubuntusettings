@@ -43,7 +43,7 @@
   </placement>
   <theme>
     <name>Artwiz-boxed</name>
-    <titleLayout>NLIMC</titleLayout>
+    <titleLayout>NSDLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -54,7 +54,7 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
-    <keepBorder>no</keepBorder>
+    <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>Ubuntu Medium</name>
@@ -123,7 +123,7 @@
     <number>10</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name></name>
+      <name>PDFS/Misc</name>
       <name>EMacs</name>
       <name>Chromium</name>
     </names>
@@ -132,7 +132,7 @@
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
   <resize>
-    <drawContents>no</drawContents>
+    <drawContents>yes</drawContents>
     <popupShow>Nonpixel</popupShow>
     <!-- 'Always', 'Never', or 'Nonpixel' (xterms and such) -->
     <popupPosition>Center</popupPosition>
@@ -179,6 +179,11 @@
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
     <!-- Cound just use <action name="ToggleDecorations"/> -->
+    <keybind key="S-A-q">
+      <action name="Execute">
+        <command>openbox --reconfigure</command>
+      </action>
+    </keybind>
     <keybind key="A-F2">
       <action name="Execute">
         <command>xbacklight -dec 3</command>
@@ -190,16 +195,24 @@
       </action>
     </keybind>
     <keybind key="A-Right">
-      <action name="GrowToEdge"><direction>east</direction></action>
+      <action name="GrowToEdge">
+        <direction>east</direction>
+      </action>
     </keybind>
     <keybind key="A-Left">
-      <action name="GrowToEdge"><direction>west</direction></action>
+      <action name="GrowToEdge">
+        <direction>west</direction>
+      </action>
     </keybind>
     <keybind key="A-Up">
-      <action name="GrowToEdge"><direction>north</direction></action>
+      <action name="GrowToEdge">
+        <direction>north</direction>
+      </action>
     </keybind>
     <keybind key="A-Down">
-      <action name="GrowToEdge"><direction>south</direction></action>
+      <action name="GrowToEdge">
+        <direction>south</direction>
+      </action>
     </keybind>
     <keybind key="A-F10">
       <action name="If">
@@ -416,11 +429,11 @@
     </keybind>
     <keybind key="W-Left">        # HalfLeftScreen
       <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo"><x>0</x><y>0</y><height>97%</height><width>50%</width></action>
+      <action name="MoveResizeTo"><x>0</x><y>0</y><height>100%</height><width>50%</width></action>
     </keybind>
     <keybind key="W-Right">        # HalfRightScreen
       <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo"><x>-0</x><y>0</y><height>97%</height><width>50%</width></action>
+      <action name="MoveResizeTo"><x>-0</x><y>0</y><height>100%</height><width>50%</width></action>
     </keybind>
     <keybind key="W-Up">        # HalfUpperScreen
       <action name="UnmaximizeFull"/>
