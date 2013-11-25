@@ -16,10 +16,10 @@ ShowMenuBarByDefault=false
 
 [MainWindow]
 Height 1080=1078
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA7wAAAQ0AAAABAAAAAQAAAAIAAAACPwAAAAA
+MenuBar=Enabled
+State=AAAA/wAAAAD9AAAAAAAAAqAAAAQdAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1920=858
+Width 1920=672
 
 [TabBar]
 ShowQuickButtons=true
